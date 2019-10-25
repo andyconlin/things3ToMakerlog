@@ -14,7 +14,7 @@
 
 ...well, that's not entirely true. _Technically_, this requires:
 + [Things 3](https://culturedcode.com/things/) (_on macOS, specifically_)
-+ [AppleScript]([AppleScript]())
++ [AppleScript](https://developer.apple.com/library/archive/documentation/AppleScript/Conceptual/AppleScriptLangGuide/introduction/ASLR_intro.html)
 
 ## Contributing/feature requests/etc.
 + Please use native [GitHub issues](/issues) for sending feature requests, bug reports, etc.  
