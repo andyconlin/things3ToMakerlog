@@ -17,6 +17,7 @@ _The amount of these that get completed will depend on its initial use by me and
 - [ ] _[internal]_ decide which of these installation methods to create (first)
   - **simple AppleScript or shell script:** installation and trigger method left up to user
     - potentially also include help in installation, whether instructions or an installation script, of sorts
+    - this could/should be installed [in the Things 3 menubar](https://support.culturedcode.com/customer/en/portal/articles/2803572-using-applescript-with-things#add-scripts-to-your-menu-bar)
   - **executable:** perhaps simply deployed via Automator. (AppleScript steps, bundled as app)
   - **proper mac app:** would give good intro to developing for macOS, but overkill (at least with current intended feature set)
 
