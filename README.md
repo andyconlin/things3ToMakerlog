@@ -1,5 +1,17 @@
 # Things 3 --> Makerlog
-[Description goes here]
+A tool to log [Things 3](https://culturedcode.com/things/) completed items to [Makerlog](https://getmakerlog.com).
+
+## Intended "versions"
+_The amount of these that get completed will depend on its initial use by me and the community; I likely won't do all of them unless it's used or heavily requested._
++ [ ] proof-of-concept simple version
++ [ ] add hard-coded conditions (area/project/tags)
++ [ ] tool with some user-friendly setup (script to get API keys, set params)
++ [ ] get tasks completed since last run (instead of just in the current day)
++ [ ] map to Makerlog product/hashtag (using Things 3 area, project, tag or global setting)
++ [ ] UI to review tasks (with checkboxes) before submitting
++ [ ] ...tbd
+
+
 ## Installation
 
 - [ ] _[internal]_ decide which of these installation methods to create (first)
