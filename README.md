@@ -18,6 +18,11 @@ _The amount of these that get completed will depend on its initial use by me and
   - **simple AppleScript or shell script:** installation and trigger method left up to user
     - potentially also include help in installation, whether instructions or an installation script, of sorts
     - this could/should be installed [in the Things 3 menubar](https://support.culturedcode.com/customer/en/portal/articles/2803572-using-applescript-with-things#add-scripts-to-your-menu-bar)
+      - provide shell script to make this easy
+        - `osascript -e 'quit app "Things3"'`
+        - `$ curl -o ~/Library/Containers/com.culturedcode.ThingsMac/Data/Library/Application\ Support/Cultured\ Code/Things\ Scripts --create-dirs raw.githubusercontent....`
+        - `open -a Things3.app`
+
   - **executable:** perhaps simply deployed via Automator. (AppleScript steps, bundled as app)
   - **proper mac app:** would give good intro to developing for macOS, but overkill (at least with current intended feature set)
 
@@ -30,7 +35,8 @@ _The amount of these that get completed will depend on its initial use by me and
 + [AppleScript](https://developer.apple.com/library/archive/documentation/AppleScript/Conceptual/AppleScriptLangGuide/introduction/ASLR_intro.html)
 
 ## Known limitations
-+ does not distinguish between areas/projects/etc. of the same name 
++ does not distinguish between areas/projects/etc. of the same name
++ the Makerlog API could change at any time
 
 ## Contributing/feature requests/etc.
 + Please use native [GitHub issues](/issues) for sending feature requests, bug reports, etc.  
