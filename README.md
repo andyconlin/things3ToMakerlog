@@ -3,8 +3,12 @@ A tool to log [Things 3](https://culturedcode.com/things/) completed items to [M
 
 ## Intended "versions"
 _The amount of these that get completed will depend on its initial use by me and the community; I likely won't do all of them unless it's used or heavily requested._
-+ [ ] proof-of-concept simple version
-+ [ ] add hard-coded conditions (area/project/tags)
++ [x] proof-of-concept simple version
++ [x] ~add hard-coded conditions (area/project/tags)~ _not really done, as I leap-frogged this step; I could go back (and may need to)_
++ [ ] version with persistent storage (other than properties in a `.scpt` file, which compiles as binary)
+  + would like to distribute as `.applescript`, but they [compile at runtime](https://en.wikipedia.org/wiki/AppleScript#Script_launchers), which should mean that its [properties don't persist](https://developer.apple.com/library/archive/documentation/AppleScript/Conceptual/AppleScriptLangGuide/conceptual/ASLR_variables.html#//apple_ref/doc/uid/TP40000983-CH223-SW2).
+  + perhaps a version that is the script as a text file, but with options and instructions to compile from source ()
+    + e.g., `osacompile -o MyScript.app MyScript.scpt` directly into the Things Scripts directory
 + [ ] tool with some user-friendly setup (script to get API keys, set params)
 + [ ] get tasks completed since last run (instead of just in the current day)
 + [ ] map to Makerlog product/hashtag (using Things 3 area, project, tag or global setting)
