@@ -29,6 +29,9 @@ _The amount of these that get completed will depend on its initial use by me and
 + [Things 3](https://culturedcode.com/things/) (_on macOS, specifically_)
 + [AppleScript](https://developer.apple.com/library/archive/documentation/AppleScript/Conceptual/AppleScriptLangGuide/introduction/ASLR_intro.html)
 
+## Known limitations
++ does not distinguish between areas/projects/etc. of the same name 
+
 ## Contributing/feature requests/etc.
 + Please use native [GitHub issues](/issues) for sending feature requests, bug reports, etc.  
 + If you prefer not to use GitHub, you can [tweet](https://twitter.com/intent/tweet?url=https%3A%2F%2Fgithub.com%2Fandyconlin%2Fthings3ToMakerlog&text=@andyconlin%2C%20here%20is%20a%20feature%20request%20for%20Things%203%20--%3E%20Makerlog%3A%20) me [@andyconlin](https://twitter.com/andyconlin)
